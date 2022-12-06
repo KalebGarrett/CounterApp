@@ -1,2 +1,2 @@
 # CounterApp
-A simple counter app.  
+A counter counter app.  
