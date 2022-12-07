@@ -1,6 +1,6 @@
 ﻿h1 {
     padding-bottom: 3rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     font-size: 50px;
 }
 
@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     background-color: #c7d3d9;
     text-align: center;
-    padding-top: 20rem;
+    padding-top: 16rem;
 }
 
 .counter-container {
@@ -21,7 +21,7 @@ body {
 
 span {
     font-size: 75px;
-    background-color: #f58718;
+    background-color: #347bed;
     padding: 2px 12px;
     margin-left: 16px;
     margin-right: 16px;
@@ -42,4 +42,10 @@ button:hover {
 
 button:focus {
     outline: none;
+}
+
+#reset {
+    padding-top: 2.0rem;
+    padding-left: 1.5rem;
+    font-size: 45px;
 }
