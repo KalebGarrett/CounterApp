@@ -1,0 +1,45 @@
+﻿h1 {
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    font-size: 50px;
+}
+
+body {
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    background-color: #c7d3d9;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    font-size: 75px;
+    background-color: #f58718;
+    padding: 2px 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 4px;
+    color: #dedddc;
+    cursor: pointer;
+}
+button {
+    font-size: 75px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button:focus {
+    outline: none;
+}
